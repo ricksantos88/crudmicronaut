@@ -32,6 +32,6 @@ public class TodoController implements TodoControllerRoutes {
     }
 
     private Todo convertToEntity(RequestTodoCreate requestTodoCreate) {
-        return new Todo(requestTodoCreate.getDescription(), requestTodoCreate.getDone());
+        return new Todo(requestTodoCreate.getDescription());
     }
 }

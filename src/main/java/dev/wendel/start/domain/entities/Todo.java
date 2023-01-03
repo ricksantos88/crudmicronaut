@@ -21,9 +21,8 @@ public class Todo {
     public Todo() {
     }
 
-    public Todo(String description, Boolean done) {
+    public Todo(String description) {
         setDescription(description);
-        setDone(done);
     }
 
     public Long getId() {
